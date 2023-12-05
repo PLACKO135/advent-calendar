@@ -17,7 +17,7 @@ day.forEach(element => {
         }
         else{
             //yippe.style.backgroundImage=`url('frieren.png')`;
-            alert('NEM nyithatod ki még');
+            yippe.style.backgroundImage=`url('Gragas_3.png')`;
         }
     });
 })
