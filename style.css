@@ -1,0 +1,43 @@
+body{
+    background-image: url(501292-red-christmas-background-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.calendar {
+    width: fit-content;
+    display: grid;
+    grid-template-columns: repeat(7, 0fr);
+    grid-gap: 10px;
+}
+
+.day {
+    width: 100px;
+    height: 100px;
+    background-color: #ccc;
+    border-radius: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: #fff;
+}
+
+.day:hover {
+    background-color: green;
+    cursor: pointer;
+}
+
+.active {
+    background-color: #ff0000;
+}
+img{
+    width: 50px;
+    height: 50px;
+}
+#placeholder{
+    margin: auto;
+    width: 719px;
+    height: 400px;
+}
+
