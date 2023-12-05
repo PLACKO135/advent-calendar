@@ -17,7 +17,9 @@ day.forEach(element => {
         }
         else{
             //yippe.style.backgroundImage=`url('frieren.png')`;
+            //yippe.style.backgroundPosition="unset";
             yippe.style.backgroundImage=`url('Gragas_3.png')`;
+           
         }
     });
 })
